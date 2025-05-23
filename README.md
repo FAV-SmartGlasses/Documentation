@@ -1,13 +1,24 @@
 # Documentation
-1. Insatall the latest version of os 
-2. Open terminal and type:  `python3 -m venv .venv`  and click entr, `touch env.sh` entr, `sudo nano env.sh` entr, 
-3. Nano will open a folder and you will write there this:`source .venv/bin/activate` and then press ctrl s and ctrl x 
-4. than write in a terminal `git clone https://github.com/FAV-SmartGlasses/SmartGlasses` entr
-6. than write `cd SmartGlasses` entr
-7. than write `pip install -r requirements_rpi.txt` entr
-8. than decide if zou want AR or VR:
-9. AR: write `cd AR`
-10. write `python rpi_main`
-11. VR: write `cd vr`
-12. write `python server.py`
-13. 
+
+## Installation
+### RPI
+If you only want to run AR w/o Discord and LLMs, you need only this. If you want extended functionality (Discord, VR, LLMs), you'll need to install either our [OVR Driver (VR)](https://github.com/FAV-SmartGlasses/Optiforge-VR-Driver) or our [AR Server (LLMs, Discord)](https://github.com/FAV-SmartGlasses/Discord)
+
+1. Open terminal and run:  
+    ```
+    git clone https://github.com/FAV-SmartGlasses/Documentation
+   ```
+2. Copy the scripts to rpi home
+3. Run this:
+    ```
+    chmod +x install.sh
+    source install.sh
+    ```
+
+## Run
+
+### AR
+Run `ar.sh`
+
+### VR
+Run `vr.sh` and then launch `Steam VR` with our [driver](https://github.com/FAV-SmartGlasses/Optiforge-VR-Driver)
