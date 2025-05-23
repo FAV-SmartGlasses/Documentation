@@ -4,7 +4,7 @@ chmod +x vr.sh
 
 git clone https://github.com/FAV-SmartGlasses/SmartGlasses
 
-python3 -m venv venv
+python3 -m venv venv --system-site-packages
 source env.sh
 
 cd SmartGlasses
