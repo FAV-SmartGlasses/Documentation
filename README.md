@@ -8,8 +8,7 @@ If you only want to run AR w/o Discord and LLMs, you need only this. If you want
     ```
     git clone https://github.com/FAV-SmartGlasses/Documentation
    ```
-2. Copy the scripts to rpi home
-3. Run this:
+2. Run this:
     ```
     chmod +x install.sh
     source install.sh
@@ -18,7 +17,17 @@ If you only want to run AR w/o Discord and LLMs, you need only this. If you want
 ## Run
 
 ### AR
-Run `ar.sh`
+Run 
+
+```
+cd Documentation
+ar.sh
+```
 
 ### VR
-Run `vr.sh` and then launch `Steam VR` with our [driver](https://github.com/FAV-SmartGlasses/Optiforge-VR-Driver)
+Run 
+```
+cd Documentation
+vr.sh
+``` 
+and then launch `Steam VR` with our [driver](https://github.com/FAV-SmartGlasses/Optiforge-VR-Driver).
