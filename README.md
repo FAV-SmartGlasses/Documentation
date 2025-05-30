@@ -10,7 +10,6 @@ If you only want to run AR w/o Discord and LLMs, you need only this. If you want
    ```
 2. Run this:
     ```
-    chmod +x install.sh
     source install.sh
     ```
 
