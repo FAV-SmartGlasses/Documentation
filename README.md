@@ -30,3 +30,9 @@ cd Documentation
 vr.sh
 ``` 
 and then launch `Steam VR` with our [driver](https://github.com/FAV-SmartGlasses/Optiforge-VR-Driver).
+
+## How to write your own apps
+1. Create a new script with class extending FreeResizePage or FixedAspectPage
+2. Implement the methods
+3. Register the app in the menu script
+4. Now just add the functionality and our (elements)[]
