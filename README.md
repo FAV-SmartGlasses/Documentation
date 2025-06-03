@@ -32,7 +32,7 @@ vr.sh
 and then launch `Steam VR` with our [driver](https://github.com/FAV-SmartGlasses/Optiforge-VR-Driver).
 
 ## How to write your own apps
-1. Create a new script with class extending FreeResizePage or FixedAspectPage
+1. Create a new script with class extending `FreeResizePage` or `FixedAspectPage` from `page_base.py`
 2. Implement the methods
-3. Register the app in the menu script
-4. Now just add the functionality and our (elements)[]
+3. Register the app in the `menu.py` script
+4. Now just add the functionality and our [elements](https://github.com/FAV-SmartGlasses/Documentation/blob/main/Docs.md)
